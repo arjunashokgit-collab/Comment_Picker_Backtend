@@ -38,7 +38,7 @@ const getPosts = async (req, res) => {
         permalink: 'https://www.instagram.com/reel/C8qL8yXP9_x/',
         timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
         commentsCount: 22288,
-        likeCount: 15400,
+        likeCount: 27652,
       },
       {
         id: 'itsmebinsabu_post_2',
@@ -162,7 +162,7 @@ const getComments = async (req, res) => {
       : fallbackComments;
 
     // Generate ~120 comments
-    const totalCommentsCount = 22088;
+    const totalCommentsCount = 45657;
     const comments = [];
 
     // Ensure our preset winner is in the list
